@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #007bff;
+  padding: 1em;
+  text-align: center;
+  color: white;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  
+}
+
+.ab{
+  margin-right: 350px;
+}
+.links a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+

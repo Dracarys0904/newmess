@@ -1,0 +1,73 @@
+/* Supervisor.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+  }
+  
+  .supervisor-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #007bff;
+  }
+  
+  .complaint-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fafafa;
+  }
+  
+  .complaint-item p {
+    margin: 0 0 1rem;
+    font-weight: 600;
+  }
+  
+  .complaint-item select,
+  .complaint-item input {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .complaint-item select:focus,
+  .complaint-item input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .complaint-item input[type="text"] {
+    flex: 1;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
